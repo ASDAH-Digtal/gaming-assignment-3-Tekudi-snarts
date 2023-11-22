@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2023-11-22T20:40:44.478Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.3" etag="9XgqVa0TM3Cw6yUk_BI2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-22T20:44:30.262Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="b2joAcVHOGIYpX78ug8o" version="22.1.3" type="github">
   <diagram name="Page-1" id="kFbRjyBhfFxmpLhRkI4D">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BWLWXCluPI4KBLeBOwqV-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BWLWXCluPI4KBLeBOwqV-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BWLWXCluPI4KBLeBOwqV-3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BWLWXCluPI4KBLeBOwqV-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="BWLWXCluPI4KBLeBOwqV-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="260" as="sourcePoint" />
+            <mxPoint x="520" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BWLWXCluPI4KBLeBOwqV-5" value="player" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BWLWXCluPI4KBLeBOwqV-6" value="chaser" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BWLWXCluPI4KBLeBOwqV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BWLWXCluPI4KBLeBOwqV-6" target="BWLWXCluPI4KBLeBOwqV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
